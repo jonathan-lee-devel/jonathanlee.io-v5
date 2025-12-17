@@ -10,8 +10,19 @@ export const workExperience = [
   {
     company: "Fidelity Investments",
     location: "Galway, Ireland",
+    position: "Senior Software Engineer",
+    period: "Jan 2026 - Present",
+    achievements: [
+        "Created a shared Maven/Java library to reduced duplication of code across microservices.",
+        "Introduced functionality which allows developers to debug issues by viewing the site from that person's perspective in a secure manner.",
+        "Enhanced our release strategy by introducing the concept of audiences whereby user attributes can be evaluated to determine whether they have access to a feature or not."
+    ],
+  },
+  {
+    company: "Fidelity Investments",
+    location: "Galway, Ireland",
     position: "Software Engineer",
-    period: "Nov 2023 - Present",
+    period: "Nov 2023 - December 2025",
     achievements: [
       "Developed and maintained internal company intranet / company website hub.",
       "Collaborated with teammates in implementing various features and bug fixes for the application, spanning across all 20+ microservices and Angular front-ends.",
@@ -32,8 +43,17 @@ export const workExperience = [
   {
     company: "Ericsson",
     location: "Westmeath, Ireland",
-    position: "Graduate Software Engineer to Software Engineer",
-    period: "Nov 2021 - Jan 2023",
+    position: "Software Engineer",
+    period: "Nov 2022 - Jan 2023",
+    achievements: [
+      "Promoted from Graduate Software Engineer to Software Engineer in my first year at the company."
+    ],
+  },
+  {
+    company: "Ericsson",
+    location: "Westmeath, Ireland",
+    position: "Graduate Software Engineer",
+    period: "Nov 2021 - Nov 2022",
     achievements: [
       "Developed a Node.js Express application for the internal Kubernetes-based pipeline resource-pooling system.",
       "Connected UI components to the backend API using Socket.io and REST APIs.",
