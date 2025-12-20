@@ -42,7 +42,7 @@ export default function EducationSection() {
                 viewport={{ once: true }}
               >
                 <div className="absolute -inset-1 bg-gradient-to-r from-purple-500/20 via-pink-500/20 to-blue-500/20 rounded-2xl blur opacity-0 group-hover:opacity-100 transition duration-500" />
-              </motion.div>
+              </motion.div>ß
             </TimelineItem>
           ))}
         </div>

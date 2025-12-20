@@ -131,11 +131,9 @@ export default function HeroSection() {
           <motion.div
             className="flex justify-center"
             variants={childVariants}
-            whileHover={{ scale: 1.05, rotate: 2 }}
-            whileTap={{ scale: 0.95 }}
           >
-            <div className="relative group">
-              <div className="absolute -inset-2 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-full blur-xl opacity-50 group-hover:opacity-75 transition duration-500 animate-pulse"></div>
+            <div className="relative">
+              <div className="absolute -inset-2 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-full blur-xl opacity-50 transition duration-500 animate-pulse"></div>
               <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur opacity-40"></div>
               <img
                 src="/profile_photo-min.jpg"
