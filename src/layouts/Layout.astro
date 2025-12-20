@@ -27,11 +27,15 @@ const { title = "Jonathan Lee - Software Engineer", description = "My Portfolio"
     />
   </head>
   <body
-    class="min-h-screen bg-background font-sans antialiased selection:bg-purple-500/20 selection:text-purple-500"
+    class="min-h-screen bg-background font-sans antialiased selection:bg-purple-500/30 selection:text-purple-600"
   >
     <div
-      class="fixed inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
+      class="fixed inset-0 -z-10 h-full w-full bg-background"
     >
+      <!-- Enhanced gradient mesh background -->
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(168,85,247,0.15),rgba(255,255,255,0))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(168,85,247,0.08),rgba(0,0,0,0))]"></div>
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_80%_50%,rgba(236,72,153,0.1),rgba(255,255,255,0))] dark:bg-[radial-gradient(ellipse_60%_60%_at_80%_50%,rgba(236,72,153,0.05),rgba(0,0,0,0))]"></div>
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_50%_50%_at_20%_80%,rgba(59,130,246,0.08),rgba(255,255,255,0))] dark:bg-[radial-gradient(ellipse_50%_50%_at_20%_80%,rgba(59,130,246,0.04),rgba(0,0,0,0))]"></div>
     </div>
     <slot />
   </body>

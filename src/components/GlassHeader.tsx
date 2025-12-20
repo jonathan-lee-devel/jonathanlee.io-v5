@@ -10,15 +10,16 @@ export default function GlassHeader() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="sticky top-0 z-50 w-full backdrop-blur-md backdrop-filter bg-background/70 dark:bg-background/40 border-b border-border/40 supports-[backdrop-filter]:bg-background/60">
-      <div className="container max-w-4xl mx-auto p-4 flex justify-between items-center">
+    <header className="sticky top-0 z-50 w-full backdrop-blur-xl backdrop-filter bg-background/80 dark:bg-background/60 border-b border-purple-500/20 supports-[backdrop-filter]:bg-background/70 shadow-sm">
+      <div className="container max-w-5xl mx-auto p-4 flex justify-between items-center">
         <motion.a
-          className="flex items-center text-lg font-medium"
+          className="flex items-center text-lg font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"
           href="/"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          ✨ {personalInfo.name}
+          <span className="mr-2">✨</span>
+          {personalInfo.name}
         </motion.a>
 
         {/* Desktop Navigation */}
